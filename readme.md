@@ -1,3 +1,15 @@
+Updated phpPayPal class, originally from https://github.com/drewjoh/phpPayPal - Thank you to @drewjoh for the original!
+
+The original class works great, however it throws some errors in later PHP versions, generally related to urlencode () and null values. This update brings PHP 8.1 (and probably lower) compatibility so those errors are no longer thrown.
+
+This class seems to work fine after some very limited testing, but you take all responsibility should you decide to use it.
+
+As for pull requests and issues - they will be ignored. This update does what's needed for my particular use case.
+
+The original readme is included below.
+
+--------------------------------------------------
+
 phpPayPal Class
 =======================
 
